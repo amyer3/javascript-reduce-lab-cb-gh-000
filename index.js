@@ -3,7 +3,8 @@ const totalBatteries = reduce(batteryBatches, function(){
   for(i in batteryBatches){
     totalBatteries += i
   }
-})
+  return totalBatteries
+});
 const monologueLines = [
   'Who are you talking to right now?',
   'Who is it you think you see?',
