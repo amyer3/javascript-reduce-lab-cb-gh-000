@@ -1,6 +1,6 @@
 const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
-var totalBatteries =
-reduce(batteryBatches, batteryBatches => {batteryBatches.forEach(totalBatteries += batteryBatches)})
+let totalBatteries =
+reduce(batteryBatches, batteryBatches => {batteryBatches.forEach(totalBatteries += batteryBatches)});
 
 const monologueLines = [
   'Who are you talking to right now?',
