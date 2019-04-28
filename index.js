@@ -1,5 +1,5 @@
 const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
-var totalBatteries = reduce(batteryBatches, function(){
+const totalBatteries = reduce(batteryBatches, function(){
   for(i in batteryBatches){
     totalBatteries += i
   }
